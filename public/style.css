@@ -1,0 +1,40 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding:1rem;
+  border-bottom: 1px solid black;
+}
+
+.nav-right {
+  display: flex; 
+  gap: 1rem;
+}
+
+
+.main-hero {
+  padding: 4rem;
+  flex: 0.6;
+  border-bottom: 1px solid black; 
+}
+
+.hero-left {
+  margin-left: 2rem;
+}
+
+
+.landing-extra {
+  flex: 0.4;
+}
+
+
+.landing-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

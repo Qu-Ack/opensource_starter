@@ -2,29 +2,19 @@
 
 ## GDG OPEN SOURCE 2024 LIVE SESSION
 
+![GDG ON CAMPUS](https://res.cloudinary.com/startup-grind/image/fetch/c_scale,w_2560/c_crop,h_650,w_2560,y_0.47_mul_h_sub_0.47_mul_650/c_crop,h_650,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/https://res.cloudinary.com/startup-grind/image/upload/c_fill%2Cdpr_2.0%2Cf_auto%2Cg_center%2Cq_auto:good/v1/gcs/platform-data-goog/chapter_banners/Copy%2520of%2520%2520GDG23%2520Web%2520Banner%25201440%2520x%2520500%2520-%2520Yellow_yOOaCIA.png)
+
+
 ## Overview
 
-This project is a JavaScript-based shopping cart system that allows users to:
-1. View a list of products fetched from an API.
-2. Add products to their cart and store the cart contents in `localStorage`.
-3. View the cart and place an order.
-4. Clear the cart when needed.
+This is a template project for a basic e-commerce website where made by GDG. 
+Users can do the following things
 
-Upon placing an order, the user will receive an alert indicating the order was placed successfully, and the cart will be cleared.
+1) Add Items to the cart
+2) Clear the Cart 
+3) Place an Order
 
-## Features
-
-- **Add to Cart**: Users can add products to their cart by clicking the "Add to Cart" button.
-- **View Cart**: The cart dynamically updates to display all the products added.
-- **Clear Cart**: Users can clear the cart with a button click.
-- **Place Order**: Upon clicking "Place Order", users are notified that their order is placed, and the cart is reset.
-
-## Technologies
-
-- **Frontend**: HTML, CSS, JavaScript (Vanilla)
-- **API**: Fetches products from a local API endpoint (e.g., `http://localhost:3000/api/product`)
-- **Storage**: Cart data is persisted using the browser's `localStorage`.
-
+We Have intentionally broken some parts of this website to create issues for you guys to solve. 
 
 
 ## Prerequisites  
@@ -37,7 +27,7 @@ Upon placing an order, the user will receive an alert indicating the order was p
 <br>
 <a href="https://www.youtube.com/watch?v=iLrywUfs7yU">Tutorial On Setting Up Your Personal Access Token</a>
 <br>
-<a href="https://nodejs.org/en/download/package-manager">Follow the steps to install nodejs on linux</a>
+<a href="https://www.theodinproject.com/lessons/foundations-setting-up-git">Follow This article if you want to setup ssh keys</a>
 
 
 
@@ -51,5 +41,8 @@ Upon placing an order, the user will receive an alert indicating the order was p
 6) type the url displayed in the command line in your browser and you are good to go
 
 
+## License 
+
+This project is licensed under the MIT License.
 
 

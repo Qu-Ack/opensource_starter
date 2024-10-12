@@ -4,6 +4,12 @@
             "id": 1,
             "name": "Clinic Plus",
             "price": 80
-        }
+        }, 
+	{
+		"id": 2,
+		"name": "Kit Kat",
+		"price": 40
+	}
+
     ]
 }

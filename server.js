@@ -1,20 +1,23 @@
 const express = require("express");
 const path = require("node:path");
-const { handleGetOrders } = require("./controllers/handleproducts");
+const {
+  handleGetOrders,
+  handleGetOrderByID,
+} = require("./controllers/handleproducts");
 require("dotenv").config();
 
 const PORT = process.env.PORT || 8000;
 
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-
-app.get("/api/product",handleGetOrders )
+app.get("/api/product", handleGetOrders);
+app.get("/api/product/:productid", handleGetOrderByID);
 
 app.listen(PORT, () => {
   console.log("Server has started ...");

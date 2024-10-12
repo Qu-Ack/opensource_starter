@@ -79,9 +79,7 @@ a {
 
 .cart-holder {
   padding: 12rem;
-
 }
-
 
 .clear-cart {
   padding: 12px;
@@ -92,9 +90,7 @@ a {
   padding: 12px;
   color: white;
   background: #007bff;
-
 }
-
 
 .nav-orders,
 .nav-cart,
@@ -200,6 +196,65 @@ a {
 .landing-footer p {
   font-size: 1rem;
 }
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-social-wrapper {
+  background-color: #343a40;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.social-media-icons a {
+  background-color: #fff;
+  width: 2.8125rem;
+  height: 2.8125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  border-radius: 50%;
+  transition: opacity 0.3s ease;
+}
+
+.social-media-icons a:hover {
+  opacity: 0.8;
+}
+
+.social-media-icons a svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: #f8f9fa;
+  font-size: 0.9375rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {

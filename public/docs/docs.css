@@ -1,0 +1,26 @@
+.docs_wrapper {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 1rem;
+
+}
+
+
+.docs_wrapper .docs_container {
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.docs_api {
+    display: flex;
+    justify-content: start;
+    width: 90%;
+    margin-top: 2rem;
+}

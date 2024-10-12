@@ -28,12 +28,12 @@ Upon placing an order, the user will receive an alert indicating the order was p
 
 
 ## Prerequisites  
-- Node Js and Npm Should be installed in your system 
-<br>
+#### Node Js and Npm Should be installed in your system 
 <a href="https://www.youtube.com/watch?v=-tXZ4g2PwGs">Tutorial On Installing Node js On windows 11</a>
 <br>
 <a href="https://nodejs.org/en/download/package-manager">Follow the steps to install nodejs on linux</a>
-- Personal Access token Or SSH keys for github
+<br>
+#### Personal Access token Or SSH keys for github
 <br>
 <a href="https://www.youtube.com/watch?v=iLrywUfs7yU">Tutorial On Setting Up Your Personal Access Token</a>
 <br>

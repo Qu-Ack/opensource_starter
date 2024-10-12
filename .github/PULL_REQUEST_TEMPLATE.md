@@ -1,10 +1,11 @@
-<!-- This is the default PR template. Please do not edit the section below. -->
+# This is the default Template Don't Edit this
 
 ## Linked Issue
-<!-- Required: Add the issue number this PR resolves -->
+#### Write the issue number after hash without any space
 Fixes #
 
 ## Description
-<!-- Required: Explain what this PR does and include a reference to the issue it solves -->
+
+#### Describe your solution otherwise I will reject your PR :)
 
 

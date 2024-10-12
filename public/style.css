@@ -108,6 +108,9 @@ body {
 
 /* Hero and footer sections (unchanged) */
 .main-hero {
+  background-image: url('Images/HeroBackgroundImage.avif'); /* Replace with the actual path to your image */
+  background-size: cover; /* This will make the image cover the entire section */
+  background-position: center; /* This will center the background image */
   padding: 4rem 2rem;
   flex: 0.6;
   border-bottom: 1px solid black;
@@ -123,6 +126,7 @@ body {
 .hero-heading {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: whitesmoke; /*Adjust the color accordingly*/
 }
 
 .hero-desc {

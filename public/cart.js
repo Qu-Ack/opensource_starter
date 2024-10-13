@@ -59,4 +59,23 @@ function PlaceOrderListener(placeOrderbutton) {
   });
 }
 
+
+//Creating a function to add items to the list
+function addItem() {
+  var a = document.getElementById("cart-list");
+  var listElement = document.getElementById("list-element");
+  var li = document.createElement("li");
+  li.setAttribute('id', listElement.value);
+  li.appendChild(document.createTextNode(listElement.value));
+  a.appendChild(li);
+}
+
+//Creating a function to remove items from list
+function removeItem() {
+  var a = document.getElementById("cart-list");
+  var candidate = document.getElementById("list-element");
+  var item = document.getElementById(candidate.value);
+  a.removeChild(item);
+}
+
 renderCart();

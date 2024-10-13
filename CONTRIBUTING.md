@@ -28,7 +28,7 @@ you will also find tags like `good-first-issue` or `help-wanted`. these will hig
 7) create a pull request 
 
 
-This is a test
-this is test 2
+## NOTICE 
 
+This Repo is stricly for the use of Google Developer's Club IIIT KOTA. This repo does not welcome contributions from outside our college. Sorry !!
 

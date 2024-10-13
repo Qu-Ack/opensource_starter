@@ -37,8 +37,8 @@ async function getProductInfo(id) {
 function renderCartHTML(data) {
   cartHolder.innerHTML += `
     <div class="product">
-      <p>${data.name}</p>
-      <p>${data.price}</p>
+      <p class="product-name">${data.name}</p>
+      <p class="product-price">${data.price}</p>
     </div>
   `;
 }

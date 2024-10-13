@@ -4,6 +4,11 @@ const {
   handleGetOrders,
   handleGetOrderByID,
 } = require("./controllers/handleproducts");
+
+const {
+  handlePostOrders,
+} = require("./controllers/handleorders");
+
 require("dotenv").config();
 
 const PORT = process.env.PORT || 8000;
@@ -18,6 +23,8 @@ app.get("/", (req, res) => {
 
 app.get("/api/product", handleGetOrders);
 app.get("/api/product/:productid", handleGetOrderByID);
+
+app.post("/api/orders", handlePostOrders);
 
 app.listen(PORT, () => {
   console.log("Server has started ...");

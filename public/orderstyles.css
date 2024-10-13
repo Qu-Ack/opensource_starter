@@ -1,0 +1,40 @@
+.nav-logo
+{
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    padding:20px;
+    background-color:rgb(155, 151, 151);
+    margin:10px;
+}
+
+.nav-right
+{
+    display:flex;
+    align-items: center;
+}
+
+.nav-cart:link,
+.nav-orders:link,
+.nav-products:link
+{
+    color:aqua;
+    text-align:right;
+}
+.nav-orders:hover,
+.nav-cart:hover,
+.nav-products:hover
+{
+    color:lavender;
+    text-decoration:none;
+    text-align:right;
+}
+.nav-ordres:visited,
+.nav-cart:visited,
+.nav-products:visited
+{
+    color:red;
+    text-decoration:none;
+    text-align:right;
+}

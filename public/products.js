@@ -21,11 +21,9 @@ function addtoCartListener(addtocartbutton) {
     let productId = addtocartbutton.className.split("-")[1];
     console.log(productId, "was clicked");
 
-    if (!cart.includes(productId)) {
-      cart.push(productId);
-      pushCart();
-      console.log("Added product:", productId, "Cart:", cart);
-    }
+    cart.push(productId);
+    pushCart();
+    console.log("Added product:", productId, "Cart:", cart);
   });
 }
 
